@@ -1,0 +1,30 @@
+{
+  "name": "graphql-express-node-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderved/graphql-express-node-mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderved/graphql-express-node-mongo/issues"
+  },
+  "homepage": "https://github.com/coderved/graphql-express-node-mongo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.4",
+    "mongoose": "^5.6.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
